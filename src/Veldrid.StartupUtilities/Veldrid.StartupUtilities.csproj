@@ -18,6 +18,7 @@
   <PropertyGroup>
     <Description>Helper classes for creating and managing application windows and user input.</Description>
     <PackageTags>Core Standard Game SDL2 Window Input</PackageTags>
+    <PackageId>$(AssemblyName)_ImageSharpUpdate</PackageId>
   </PropertyGroup>
 
 </Project>

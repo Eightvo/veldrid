@@ -17,6 +17,7 @@
   <PropertyGroup>
     <Description>ImageSharp integration for Veldrid. Provides functionality for loading GPU Textures with ImageSharp.</Description>
     <PackageTags>3D Graphics Direct3D DirectX Vulkan OpenGL Metal Core Standard Game ImageSharp</PackageTags>
+    <PackageId>$(AssemblyName)_ImageSharpUpdate</PackageId>
   </PropertyGroup>
 
 </Project>

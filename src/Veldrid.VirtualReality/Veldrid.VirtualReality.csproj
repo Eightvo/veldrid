@@ -14,11 +14,11 @@
     <PackageReference Include="Veldrid.SPIRV" Version="$(VeldridSpirvVersion)" />
   </ItemGroup>
 
-  <ItemGroup Condition="'$(UseStableVersions)' == 'true'" >
+  <ItemGroup Condition="'$(UseStableVersions)' == 'true'">
     <PackageReference Include="Veldrid" Version="4.5.0" />
   </ItemGroup>
 
-  <ItemGroup Condition="'$(UseStableVersions)' != 'true'" >
+  <ItemGroup Condition="'$(UseStableVersions)' != 'true'">
     <ProjectReference Include="..\Veldrid\Veldrid.csproj" />
   </ItemGroup>
 
@@ -34,6 +34,7 @@
   <PropertyGroup>
     <Description>Virtual Reality integration for Veldrid, supporting both OpenVR and Oculus SDK.</Description>
     <PackageTags>VR Virual Reality OpenVR Oculus 3D Graphics Direct3D DirectX Vulkan OpenGL Core Standard Game</PackageTags>
+    <PackageId>$(AssemblyName)_ImageSharpUpdate</PackageId>
   </PropertyGroup>
 
 </Project>

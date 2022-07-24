@@ -53,12 +53,12 @@
     <PackageReference Include="ImGui.NET" Version="1.87.3" />
   </ItemGroup>
 
-  <ItemGroup Condition="'$(UseStableVersions)' == 'true'" >
+  <ItemGroup Condition="'$(UseStableVersions)' == 'true'">
     <PackageReference Include="Veldrid" Version="4.5.0" />
     <PackageReference Include="Veldrid.SDL2" Version="4.5.0" />
   </ItemGroup>
 
-  <ItemGroup Condition="'$(UseStableVersions)' != 'true'" >
+  <ItemGroup Condition="'$(UseStableVersions)' != 'true'">
     <ProjectReference Include="..\Veldrid\Veldrid.csproj" />
     <ProjectReference Include="..\Veldrid.SDL2\Veldrid.SDL2.csproj" />
   </ItemGroup>
@@ -66,6 +66,7 @@
   <PropertyGroup>
     <Description>ImGui integration for Veldrid. Provides a simple interface for rendering and interacting with ImGui.NET.</Description>
     <PackageTags>3D Graphics Direct3D DirectX Vulkan OpenGL Metal Core Standard Game ImGui</PackageTags>
+    <PackageId>$(AssemblyName)_ImageSharpUpdate</PackageId>
   </PropertyGroup>
 
 </Project>

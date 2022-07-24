@@ -13,6 +13,7 @@
   <PropertyGroup>
     <Description>Miscellaneous utility functions useful for Veldrid.</Description>
     <PackageTags>Core Standard Game Graphics</PackageTags>
+    <PackageId>$(AssemblyName)_ImageSharpUpdate</PackageId>
   </PropertyGroup>
 
 </Project>
